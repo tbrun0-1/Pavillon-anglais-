@@ -166,7 +166,7 @@ class Component extends DCLogic {
     var c = this.cur();
     var Q = this.questions();
     var P = this.packs();
-    var NAVY = "#0D1F3C", ORANGE = "#FF5A1F", BLUE = "#1A47B8", RED = "#C8202F", WHITE = "#FFFFFF", PAPER = "#F3F4F0", TINT = "#FFE4D9";
+    var NAVY = "#102746", ORANGE = "#FF542E", BLUE = "#102746", RED = "#C8202F", WHITE = "#FFFFFF", PAPER = "#F5F4EF", TINT = "#FFE4D9";
     var qi = Math.max(0, Math.min(9, c.qi || 0));
     var q = Q[qi];
     var ans = c.answers[qi];
@@ -209,7 +209,7 @@ class Component extends DCLogic {
 
     var LOOK = {
       idle: { bg: WHITE, border: NAVY, letterBg: PAPER, letterFg: NAVY, fg: NAVY, shadow: "3px 3px 0 " + NAVY, markColor: NAVY },
-      correct: { bg: "#E4EBFA", border: BLUE, letterBg: BLUE, letterFg: WHITE, fg: NAVY, shadow: "3px 3px 0 " + BLUE, markColor: BLUE },
+      correct: { bg: "#E3E7EE", border: BLUE, letterBg: BLUE, letterFg: WHITE, fg: NAVY, shadow: "3px 3px 0 " + BLUE, markColor: BLUE },
       wrong: { bg: "#FBE3E5", border: RED, letterBg: RED, letterFg: WHITE, fg: NAVY, shadow: "3px 3px 0 " + RED, markColor: RED },
       dim: { bg: WHITE, border: "#A9B1BF", letterBg: PAPER, letterFg: "#5A6478", fg: "#4A5568", shadow: "none", markColor: NAVY }
     };
@@ -334,7 +334,7 @@ class Component extends DCLogic {
       options: options,
       answered: answered,
       notAnswered: !answered,
-      fbBg: correct ? "#E4EBFA" : "#FBE3E5",
+      fbBg: correct ? "#E3E7EE" : "#FBE3E5",
       fbColor: correct ? BLUE : RED,
       fbTitle: correct ? "Bonne réponse." : "Pas tout à fait.",
       nextLabel: qi >= 9 ? "Voir le résultat" : "Question suivante",

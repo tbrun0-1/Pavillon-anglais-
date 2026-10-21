@@ -1,8 +1,8 @@
 /* Pavillon Anglais : styles communs */
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-body { margin: 0; background: #F3F4F0; }
+body { margin: 0; background: #F5F4EF; }
 img { max-width: 100%; }
-:focus-visible { outline: 3px solid #1A47B8; outline-offset: 2px; }
+:focus-visible { outline: 3px solid #102746; outline-offset: 2px; }
 
 /* En-tête sur téléphone : le logo, puis une ligne de navigation qui défile, le diagnostic en premier */
 @media (max-width: 640px) {
@@ -18,11 +18,11 @@ img { max-width: 100%; }
 /* Page du diagnostic : écran de téléphone centré sur ordinateur, plein écran sur téléphone */
 .page-diagnostic .diag {
   display: flex; justify-content: center; padding: 48px 16px 64px;
-  border-bottom: 2px solid #0D1F3C; background-color: #F3F4F0;
+  border-bottom: 2px solid #102746; background-color: #F5F4EF;
   background-image: linear-gradient(#DCE0E6 1px, transparent 1px), linear-gradient(90deg, #DCE0E6 1px, transparent 1px);
   background-size: 48px 48px;
 }
-.page-diagnostic #dc-root > div { border: 2px solid #0D1F3C; border-radius: 4px; box-shadow: 8px 8px 0 #0D1F3C; }
+.page-diagnostic #dc-root > div { border: 2px solid #102746; border-radius: 4px; box-shadow: 8px 8px 0 #102746; }
 @media (max-width: 640px) {
   .page-diagnostic .site-entete { display: none; }
   .page-diagnostic .diag { padding: 0; border-bottom: 0; background: none; }

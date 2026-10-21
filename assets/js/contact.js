@@ -3,7 +3,7 @@ class Component extends DCLogic {
   renderVals() {
     var self = this;
     var s = this.state || {};
-    var NAVY = "#0D1F3C", WHITE = "#FFFFFF";
+    var NAVY = "#102746", WHITE = "#FFFFFF";
     var name = s.name || "", email = s.email || "", message = s.message || "";
     var defs = [
       { key: "prepa", label: "La préparation" },
